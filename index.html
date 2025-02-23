@@ -1,125 +1,52 @@
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Frontend Practice</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-</head>
-<body class="bg-gray-100">
-    <header class="bg-white shadow-md">
-        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
-            <h1 class="text-2xl font-bold">Frontend Practice</h1>
-            <i class="fas fa-bars text-2xl"></i>
-        </div>
-    </header>
-    <main class="container mx-auto px-4 py-8">
-        
-            <section class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
-                <img src="Consoles_TravelerBracket1_Monogram_May2020_4561_30a35bd4-01b4-44db-894a-e06162d8ab77_1920x1280_crop_center.jpg.webp" alt="Image of a console" class="w-full h-auto">
-                <img src="./p3.jpg" alt="Image of another console" class="w-full h-auto">
-            </section>
+    <title>Document</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss"></style>
     
-        
-        <section class="text-center mb-8">
-            <h2 class="text-2xl font-bold mb-4">CREATE YOUR OWN CONSOLE</h2>
-            <img src=".p4.jpg" alt="Image of various console parts" class="w-full h-auto" background-image="p1.jpg">
-        </section>
-        <section class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-8">
-            <div class="bg-white p-4 shadow-md">
-                <img src="Consoles_TravelerBracket1_Monogram_May2020_4561_30a35bd4-01b4-44db-894a-e06162d8ab77_1920x1280_crop_center.jpg.webp" alt="Image of a console case" class="w-full h-auto mb-4">
-                <h3 class="text-lg font-bold">Aluminum Case</h3>
-                <p class="text-red-500">NEW</p>
-            </div>
-            <div class="bg-white p-4 shadow-md">
-                <img src="Consoles_TravelerBracket1_Monogram_May2020_4561_30a35bd4-01b4-44db-894a-e06162d8ab77_1920x1280_crop_center.jpg.webp" alt="Image of a monochrome console" class="w-full h-auto mb-4">
-                <h3 class="text-lg font-bold">Monochrome Console</h3>
-                <p class="text-red-500">NEW</p>
-            </div>
-            <div class="bg-white p-4 shadow-md">
-                <img src="p6.jpg" alt="Image of a color module" class="w-full h-auto mb-4">
-                <h3 class="text-lg font-bold">Color Module</h3>
-                <p class="text-red-500">NEW</p>
-            </div>
-            <div class="bg-white p-4 shadow-md">
-                <img src="p6.jpg" alt="Image of a dual module" class="w-full h-auto mb-4">
-                <h3 class="text-lg font-bold">Dual Module</h3>
-                <p class="text-red-500">NEW</p>
-            </div>
-            <div class="bg-white p-4 shadow-md">
-                <img src="./p12.jpg" alt="Image of a commercial kit" class="w-full h-auto mb-4">
-                <h3 class="text-lg font-bold">Commercial Kits</h3>
-                <p class="text-red-500">NEW</p>
-            </div>
-            <div class="bg-white p-4 shadow-md">
-                <img src="Consoles_TravelerBracket1_Monogram_May2020_4561_30a35bd4-01b4-44db-894a-e06162d8ab77_1920x1280_crop_center.jpg.webp" alt="Image of a starter module" class="w-full h-auto mb-4">
-                <h3 class="text-lg font-bold">MONOGRAM</h3>
-                <p class="text-red-500">CARRYING CASE</p>
-            </div>
-            <div class="bg-white p-4 shadow-md">
-                <img src="Consoles_TravelerBracket1_Monogram_May2020_4561_30a35bd4-01b4-44db-894a-e06162d8ab77_1920x1280_crop_center.jpg.webp" alt="Image of a dual module" class="w-full h-auto mb-4">
-                <h3 class="text-lg font-bold">MONOGRAM</h3>
-                <p class="text-red-500">CORE</p>
-            </div>
-            <div class="bg-white p-4 shadow-md">
-                <img src="Consoles_TravelerBracket1_Monogram_May2020_4561_30a35bd4-01b4-44db-894a-e06162d8ab77_1920x1280_crop_center.jpg.webp" alt="Image of a console pack" class="w-full h-auto mb-4">
-                <h3 class="text-lg font-bold">Console Pack</h3>
-                <p class="text-red-500">CORE</p>
-            </div>
-            <div class="bg-white p-4 shadow-md">
-                <img src="Everyday-Bundle-Mocks-horizontal_1920x1281_crop_center.jpg.webp" alt="Image of a console pack" class="w-full h-auto mb-4">
-                <h3 class="text-lg font-bold">Console </h3>
-                <p class="text-red-500">Core</p>
-            </div>
-            <div class="bg-white p-4 shadow-md">
-                <img src="Everyday-Bundle-Mocks-horizontal_1920x1281_crop_center.jpg.webp" alt="Image of a console pack" class="w-full h-auto mb-4">
-                <h3 class="text-lg font-bold">Console Pack</h3>
-                <p class="text-red-500">Core</p>
-            </div>
-            <div class="bg-white p-4 shadow-md">
-                <img src="Everyday-Bundle-Mocks-horizontal_1920x1281_crop_center.jpg.webp" alt="Image of a console pack" class="w-full h-auto mb-4">
-                <h3 class="text-lg font-bold">Console Pack</h3>
-                <p class="text-red-500">NEW</p>
-            </div>
-            <div class="bg-white p-4 shadow-md">
-                <img src="./p2.jpg" alt="Image of a console pack" class="w-full h-auto mb-4">
-                <h3 class="text-lg font-bold">Console Pack</h3>
-                <p class="text-red-500">NEW</p>
-            </div>
-        </section>
-        <section class="text-center mb-8">
-            <img src="shop-banner-module.jpggit" alt="Image of a care package" class="w-full h-auto">
-        </section>
-    </main>
-    <footer class="bg-blue-900 text-white py-8">
-        <div class="container mx-auto px-4">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-                <div>
-                    <h3 class="text-lg font-bold mb-4">Company</h3>
-                    <ul>
-                        <li>About Us</li>
-                        <li>Careers</li>
-                        <li>Press</li>
-                    </ul>
-                </div>
-                <div>
-                    <h3 class="text-lg font-bold mb-4">Support</h3>
-                    <ul>
-                        <li>Contact Us</li>
-                        <li>FAQs</li>
-                        <li>Shipping & Returns</li>
-                    </ul>
-                </div>
-                <div>
-                    <h3 class="text-lg font-bold mb-4">Follow Us</h3>
-                    <ul class="flex space-x-4">
-                        <li><i class="fab fa-facebook-f"></i></li>
-                        <li><i class="fab fa-twitter"></i></li>
-                        <li><i class="fab fa-instagram"></i></li>
-                    </ul>
-                </div>
-            </div>
+
+</head>
+
+<body>
+  <div class="mx-auto flex max-w-sm items-center gap-x-4 rounded-xl bg-white p-6 shadow-lg outline outline-black/5 dark:bg-slate-800 ">
+    <form id="myForm" class="w-32 flex-auto ">
+        <div class="form-group flex flex-nowrap w-32 flex-auto flex max-w-sm items-center gap-x-4 p-6 ">
+            <label for="username">Name</label>
+            <input type="text" class="h-8 w-36 bg-purple-500 opacity-20" id="name" name="Fullname">
+            <span class="error-message text-red" id="name-error"></span>
         </div>
-    </footer>
+       
+        <div class="form-group  flex max-w-sm items-center gap-x-4 p-6  ">
+            <label for="email">email</label>
+            <input type="email" class="h-8 w-36 bg-purple-500 opacity-20 hover:border-purple-700" id="email" name="email">
+            <span class="error-message text-red" id="email-error"></span>
+        </div>
+          <div class="form-group   flex max-w-sm items-center gap-x-4 p-6 ">
+            <label for="mobileNumber">MobileNumber</label>
+            <input type="number" class="h-8 w-36 bg-purple-500 opacity-20 hover:border-purple-700" id="mobileNumber" name="mobileNumber">
+            <span class="error-message text-red" id="mobileNumber-error"></span>
+          </div>
+          <div class="form-group   flex max-w-sm items-center gap-x-4 p-6 ">
+            <label for="password">password</label>
+            <input type="password" class="h-8 w-36 bg-purple-500 opacity-20 hover:border-purple-700"id="password" name="password" minlength=6>
+          </div>
+          <div class="form-group  flex max-w-sm items-center gap-x-4 p-6 ">
+            <label for="confirm-password">confirm-password</label>
+            <input type="password" class="h-8 w-36 bg-purple-500 opacity-20 hover:border-purple-700" id="password2" name="password">
+          </div>
+          <div class=" flex max-w-sm  gap-x-0">
+            <input type="checkbox" id="terms" name="terms" class="mr-[-48px] h-8 w-36 bg-sky-800 ">
+            <label for="terms" >AgreeToTerms</label>
+          </div>
+          <button type="submit" class="bg-purple-400 hover:bg-purple-700 text-white rounded border border-purple-500 hover:border-purple-700">submit</button>
+    </form>
+    <div id="success-message"></div>
+    <script src="script.js"></script>
+  </div>  
 </body>
+
 </html>
